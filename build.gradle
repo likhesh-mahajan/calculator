@@ -1,4 +1,8 @@
+task wrapper(type: Wrapper) {
+       gradleVersion = '2.10'
+}
 buildscript {
+
 	ext {
 		springBootVersion = '2.1.0.RELEASE'
 	}
